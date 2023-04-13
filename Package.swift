@@ -21,7 +21,8 @@ let package = Package(
             name: "TonkUIFonts",
 			path: "Sources",
             resources: [
-                .copy("Fonts/Montserrat/Montserrat-Regular.ttf")
+                .copy("Fonts/Montserrat/Montserrat-Regular.ttf"),
+				.copy("Fonts/Montserrat/Montserrat-Bold.ttf"),
             ]
         )
     ]
