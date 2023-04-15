@@ -59,7 +59,7 @@ public extension Font.Montserrat {
 				case .title3:
 					return 20
 				case .headline:
-					return 17
+					return 16
 				case .subheadline:
 					return 15
 				case .body:

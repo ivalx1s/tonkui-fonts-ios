@@ -23,6 +23,7 @@ let package = Package(
             resources: [
                 .copy("Fonts/Montserrat/Montserrat-Regular.ttf"),
 				.copy("Fonts/Montserrat/Montserrat-Bold.ttf"),
+				.copy("Fonts/Montserrat/Montserrat-SemiBold.ttf"),
             ]
         )
     ]
