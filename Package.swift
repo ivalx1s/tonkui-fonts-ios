@@ -24,6 +24,7 @@ let package = Package(
                 .copy("Fonts/Montserrat/Montserrat-Regular.ttf"),
 				.copy("Fonts/Montserrat/Montserrat-Bold.ttf"),
 				.copy("Fonts/Montserrat/Montserrat-SemiBold.ttf"),
+				.copy("Fonts/Montserrat/Montserrat-Medium.ttf"),
             ]
         )
     ]

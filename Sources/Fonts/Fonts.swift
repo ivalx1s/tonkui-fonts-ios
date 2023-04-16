@@ -11,7 +11,7 @@ internal let tonk_fonts = [
 //    "Montserrat-Heavy",
 //    "Montserrat-Heavyitalic",
 //    "Montserrat-Lightitalic",
-//    "Montserrat-Medium",
+    "Montserrat-Medium",
 //    "Montserrat-Mediumitalic",
 //    "Montserrat-Semibold",
 //    "Montserrat-SemiBoldItalic",

@@ -24,27 +24,27 @@ public extension Font.Montserrat {
 			let baseName: String = "Montserrat"
 			switch self {
 				case .largeTitle:
-					return "\(baseName)"
+					return "\(baseName)-Bold"
 				case .title:
-					return "\(baseName)"
+					return "\(baseName)-SemiBold"
 				case .title2:
-					return "\(baseName)"
+					return "\(baseName)-SemiBold"
 				case .title3:
-					return "\(baseName)"
+					return "\(baseName)-SemiBold"
 				case .headline:
-					return "\(baseName)"
+					return "\(baseName)-SemiBold"
 				case .subheadline:
-					return "\(baseName)"
+					return "\(baseName)-Medium"
 				case .body:
-					return "\(baseName)"
+					return "\(baseName)-Regular"
 				case .callout:
-					return "\(baseName)"
+					return "\(baseName)-SemiBold"
 				case .footnote:
-					return "\(baseName)"
+					return "\(baseName)-SemiBold"
 				case .caption:
-					return "\(baseName)"
+					return "\(baseName)-Regular"
 				case .caption2:
-					return "\(baseName)"
+					return "\(baseName)-Regular"
 			}
 		}
 		
@@ -55,23 +55,23 @@ public extension Font.Montserrat {
 				case .title:
 					return 28
 				case .title2:
-					return 22
-				case .title3:
 					return 20
+				case .title3:
+					return 18
 				case .headline:
 					return 16
 				case .subheadline:
-					return 15
-				case .body:
-					return 17
-				case .callout:
-					return 16
-				case .footnote:
-					return 15
-				case .caption:
 					return 14
-				case .caption2:
+				case .body:
+					return 13
+				case .callout:
 					return 12
+				case .footnote:
+					return 12
+				case .caption:
+					return 10
+				case .caption2:
+					return 9
 			}
 		}
 		

@@ -52,7 +52,7 @@ public extension Font {
     }
     
     
-    /// Create a Gilroy font with the given size that scales with the body text style.
+    /// Create a Montserrat font with the given size that scales with the body text style.
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11, *)
     static func montserrat(size: CGFloat) -> Font {
         let style: Montserrat.Style = .body
@@ -60,7 +60,7 @@ public extension Font {
     }
     
     
-    /// Create a Gilroy font with the given fixed size that does not scale with Dynamic Type.
+    /// Create a Montserrat font with the given fixed size that does not scale with Dynamic Type.
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11, *)
     static func montserrat(fixedSize size: CGFloat) -> Font {
         let style: Montserrat.Style = .body // we just need the name of font
